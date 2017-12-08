@@ -1,0 +1,59 @@
+/*!
+
+ =========================================================
+ * Material Dashboard - v1.2.0
+ =========================================================
+
+ * Product Page: http://www.creative-tim.com/product/material-dashboard
+ * Copyright 2017 Creative Tim (http://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/creativetimofficial/material-dashboard/blob/master/LICENSE.md)
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+@import "../css/bootstrap.min.css";
+@import "../css/material.css";
+
+//variables and mixins
+@import "../sass/md/_variables";
+@import "../sass/md/_mixins";
+@import "../sass/md/_shadows";
+
+//plugin css
+@import "../sass/md/plugins/_plugin-nouislider";
+@import "../sass/md/plugins/_animate";
+@import "../sass/md/plugins/_perfect-scrollbar";
+
+// Core CSS
+@import "../sass/md/_typography";
+@import "../sass/md/_sidebar-and-main-panel";
+@import "../sass/md/_buttons";
+@import "../sass/md/_misc";
+@import "../sass/md/_inputs";
+@import "../sass/md/_forms";
+@import "../sass/md/_alerts";
+@import "../sass/md/_tables";
+@import "../sass/md/_checkboxes";
+@import "../sass/md/_radios";
+@import "../sass/md/_togglebutton";
+@import "../sass/md/_ripples";
+@import "../sass/md/_pagination";
+@import "../sass/md/_pills";
+@import "../sass/md/_dialogs";
+@import "../sass/md/_navbars";
+@import "../sass/md/_popups";
+@import "../sass/md/_footers";
+
+// Fancy Stuff
+@import "../sass/md/_dropdown";
+@import "../sass/md/_cards";
+@import "../sass/md/_tabs";
+@import "../sass/md/_chartist";
+@import "../sass/md/_responsive";
+
+// Custom styles
+@import "../sass/md/_loader";
+@import "../sass/md/_manager";
+@import "../js/select2/css/select2.min.css";

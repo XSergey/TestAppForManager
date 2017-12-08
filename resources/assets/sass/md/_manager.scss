@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+.auth-header-bg {background: #5682a3;height: 226px;}
+.auth-login .card{background: #ffffff;width: 400px;margin: 0 auto;margin-top: -50px;display: block;}
+.card-header{background-color: #5682a3;}
+.card-content.ajax-content{height:100%;min-height:400px;}
+.card-border {border: 1px solid #e1e1e1;}
+.card-title-bold {font-weight: 700;}
+.plan-controls{position: absolute;right: 24px;top: -14px;}
+.plan-text {margin: 30px 0px;border-bottom: 1px solid #eaeaea;min-height: 50px;}
+.plan-price {font-size: 40px;}
+.price-currency-label {position: absolute;right: 0px;top: 10px;}
+.plan-usd {font-size: 20px;margin-top:10px;}
+.main-panel{max-height: none;}
+.main-panel>.content{opacity: 0.0; transition: opacity 0.3s ease;height:none;}
+.main-panel>.content>.loader{position: absolute;text-align: center;width: 100%;top: 50%;}
+.cssload-thecibe{margin: -40px auto 0;vertical-align: middle;display: inline-block;}
+.perfect-scrollbar-off .main-panel {overflow: hidden !important;height:none;}
+.dropdown {list-style: none;}
+.btn-transparent{background-color: #789bb6 !important;color: #ffffff !important;border: none;}
+.btn-default {background-color: #fff !important;color: #444444 !important;border: #ececec solid 1px !important;}
+.user-title {font-size: 17px;}
+.vertical-line {border-right: 1px solid black;height: 20px;margin-right: 3px;}
+.navbar-block{padding: 14px 0px;}
+.navbar-block>.navbar-currency-title>.material-icons{float: left;margin-top: -2px;}
+.navbar-currency-title{font-size: 18px;font-weight: 400;}
+.navbar-currency-value{font-size: 18px;margin-right: 20px;}
+.navbar .navbar-nav > li > a:not(.btn) .material-icons {margin-top: -5px;}
+.text-colored{color:#5682a3;}
