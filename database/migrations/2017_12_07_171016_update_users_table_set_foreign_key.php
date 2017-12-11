@@ -16,7 +16,7 @@ class UpdateUsersTableSetForeignKey extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->foreign('group_id')
                 ->references('id')
-                ->on('users_group');
+                ->on('user_groups');
         });
     }
 
@@ -28,7 +28,7 @@ class UpdateUsersTableSetForeignKey extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropForeign('users_group_id_foreign');
+            $table->dropForeign('user_groups_id_foreign');
         });
     }
 }

@@ -9,6 +9,28 @@ class UsersTableSeeder extends Seeder {
 
     public function run()
     {
+        DB::table('user_groups')->delete(); 
+        
+        UsersGroup::create([
+            'id'     => 1,
+            'access_level'  => UsersGroup::SYSTEM_ADMIN,
+            'name' => 'Sysadmin group',
+            'modules'  => "",
+        ]);
+
+        UsersGroup::create([
+            'id'     => 2,
+            'access_level'  => UsersGroup::ADMIN,
+            'name' => 'Admin group',
+            'modules'  => "",
+        ]);
+
+        UsersGroup::create([
+            'id'     => 3,
+            'access_level'  => UsersGroup::USER,
+            'name' => 'User group',
+            'modules'  => "",
+        ]);
         DB::table('users')->delete();
 
         User::create([
@@ -33,29 +55,6 @@ class UsersTableSeeder extends Seeder {
             'password'  => bcrypt('123456'),
             'firstname' => 'User',
             'lastname'  => 'Manager'
-        ]);
-
-        DB::table('user_groups')->delete();
-
-        UsersGroup::create([
-            'id'     => 1,
-            'access_level'  => UsersGroup::SYSTEM_ADMIN,
-            'name' => 'Sysadmin group',
-            'modules'  => "",
-        ]);
-
-        UsersGroup::create([
-            'id'     => 2,
-            'access_level'  => UsersGroup::ADMIN,
-            'name' => 'Admin group',
-            'modules'  => "",
-        ]);
-
-        UsersGroup::create([
-            'id'     => 3,
-            'access_level'  => UsersGroup::USER,
-            'name' => 'User group',
-            'modules'  => "",
-        ]);
+        ]);      
     }
 }
