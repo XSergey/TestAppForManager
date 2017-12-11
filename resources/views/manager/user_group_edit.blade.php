@@ -1,4 +1,4 @@
-{!! Form::open(['url' => '#', 'method' => 'POST', 'class' => '']) !!}
+{!! Form::open(['url' => '#', 'method' => 'PUT', 'class' => '']) !!}
 <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
     <h4 class="modal-title">Create New User Group</h4>
@@ -27,6 +27,6 @@
 </div>
 <div class="modal-footer">
     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-    <button type="button" class="btn btn-primary" onclick="UserGroupModule.edit(event, this, '{{$usersGroup->id}}')">Create group</button>
+    <button type="button" class="btn btn-primary" onclick="UserGroupModule.edit(event, this, '{{$usersGroup->id}}')">Update group</button>
 </div>
 {!! Form::close() !!}

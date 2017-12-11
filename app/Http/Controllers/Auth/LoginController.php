@@ -29,7 +29,7 @@ class LoginController extends Controller
 
     protected $redirectAfterLogout = '/login';
     
-    //protected $guard = 'admin';
+    protected $guard = 'admin';
 
     /**
      * Create a new controller instance.

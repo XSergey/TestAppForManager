@@ -5,8 +5,9 @@ use App\User;
 use App\UsersGroup;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Guard;
 
-class UsersGroupController extends Controller {
+class UsersGroupController extends Guard {
 
     public function index() {
         return view('manager.user_groups', [

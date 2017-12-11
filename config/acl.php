@@ -1,44 +1,44 @@
 <?php
 return [
-    'users-group' => [
-        'name' => 'Группы пользователей',
+    'user-groups' => [
+        'name' => 'User Groups',
         'action' => [
             'index' => [
-                'name' => 'Просмотр',
+                'name' => 'Read',
                 'allow' => ['index', 'show']
             ],
             'create' => [
-                'name' => 'Создание',
+                'name' => 'Create',
                 'allow' => ['create', 'store']
             ],
             'edit' => [
-                'name' => 'Редактирование',
+                'name' => 'Update',
                 'allow' => ['edit', 'update']
             ],
             'destroy' => [
-                'name' => 'Удаление',
+                'name' => 'Delete',
                 'allow' => ['destroy']
             ],
         ],
     ],
 
     'users' => [
-        'name' => 'Пользователи',
+        'name' => 'Users',
         'action' => [
             'index' => [
-                'name' => 'Просмотр',
+                'name' => 'Read',
                 'allow' => ['index', 'show']
             ],
             'create' => [
-                'name' => 'Создание',
+                'name' => 'Create',
                 'allow' => ['create', 'store']
             ],
             'edit' => [
-                'name' => 'Редактирование',
+                'name' => 'Update',
                 'allow' => ['edit', 'update']
             ],
             'destroy' => [
-                'name' => 'Удаление',
+                'name' => 'Delete',
                 'allow' => ['destroy']
             ], 
         ],
